@@ -5,12 +5,12 @@ public class Scope {
 
          //Block Scope
         {
-            int a = 4; // already initialised outside the block in the same method, hence you cannot initialise again
+//            int a = 4; // already initialised outside the block in the same method, hence you cannot initialise again
             a = 100; // here we are reassigning the origin ref variable to some other value
             int c = 3;
             //values initialised in this block, will remain in this block
         }
-        System.out.println(c); // cannot use outside the block
+//        System.out.println(c); // cannot use outside the block
 
     }
     static void random() {
@@ -18,6 +18,6 @@ public class Scope {
         System.out.println(num);
 
         //Function Scope : if the variable is not defined here it will show error eg:below
-        System.out.println(a);
+//        System.out.println(a);
     }
 }
