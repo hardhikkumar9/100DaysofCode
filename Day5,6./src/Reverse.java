@@ -1,6 +1,6 @@
 public class Reverse {
     public static void main(String[] args) {
-        int num = 24535;
+        int num = 535;
 
         int ans = 0;
         while (num > 0){
