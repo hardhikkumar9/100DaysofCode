@@ -1,3 +1,5 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
 import java.util.Scanner;
 
 public class Runnsumod1dArr {
@@ -15,7 +17,12 @@ public class Runnsumod1dArr {
 //            }
 //        }
 
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
+        System.out.println("Please enter input = ");
+        
+        int rollno = input.nextInt();
+        System.out.println("Your roll number is = " + rollno);
+
     }
 }
