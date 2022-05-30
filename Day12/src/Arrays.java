@@ -9,7 +9,7 @@ public class Arrays {
 
         //or directly
         int[] rollno2 = new int []{5, 4, 66, 77, 23};
-        System.out.println(rollno[1]);
+        System.out.println(rollno2[1]);
 
         String[] arr = new String[4];
         System.out.println(arr[0]);
