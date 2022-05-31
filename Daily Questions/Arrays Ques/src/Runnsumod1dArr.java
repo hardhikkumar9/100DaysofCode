@@ -24,5 +24,7 @@ public class Runnsumod1dArr {
         int rollno = input.nextInt();
         System.out.println("Your roll number is = " + rollno);
 
+        System.out.println("Your name name is = ");
+
     }
 }
