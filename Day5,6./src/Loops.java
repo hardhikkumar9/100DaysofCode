@@ -36,7 +36,7 @@ public class Loops {
         //2
         //int n = 1;
         do {
-            System.out.println("Hello Hardhik");
+            System.out.println("Hello Mac");
         } while (n != 1);
 
     }
