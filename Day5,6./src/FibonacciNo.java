@@ -6,7 +6,7 @@ public class FibonacciNo {
 
         int n = in.nextInt();
         int a = 0;
-        int b = 1;
+        int b = 3;
         int count = 2;
 
         while (count <= n);{
