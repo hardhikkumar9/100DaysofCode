@@ -5,7 +5,7 @@ public class FibonacciNo {
         Scanner in = new Scanner(System.in);
         //lifeatgoogle
         int n = in.nextInt();
-        int a = 0;
+        int a = 1;
         int b = 3;
         int count = 2;
 
