@@ -6,5 +6,10 @@ public class loops {
             i++;
         }
         System.out.println("Done.");
+
+        for (int j = 0; j <= 9; j++) {
+            System.out.println(j);
+        }
+        System.out.println("Done1.");
     }
 }
