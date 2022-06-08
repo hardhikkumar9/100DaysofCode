@@ -4,16 +4,24 @@ import java.util.Scanner;
 public class PrimeNum  {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
+        //System.out.println("Enter no - ");
+        int t = scn.nextInt();
 
-        for (int i = 2; i < n; ++i) {
-            if (n % i ==0){
-                System.out.println("Prime");
+        for (int i = 0; i < t; i++) {
+            int n = scn.nextInt();
+
+            int count = 0;
+            for (int div = 1; div <= n ; div++) {
+                if (n % div == 0){
+                    count++;
+                }
+            }
+            if (count == 2){
+                System.out.println("prime");
             }
             else {
-                System.out.println("Not Prime");
+                System.out.println("not prime");
             }
-        break;
         }
     }
 }
